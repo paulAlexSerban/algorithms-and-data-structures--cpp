@@ -1,0 +1,19 @@
+{
+  "name": "cpp---algorithms-and-data-structures",
+  "version": "0.0.0",
+  "description": "## Command line syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulAlexSerban/cpp---algorithms-and-data-structures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulAlexSerban/cpp---algorithms-and-data-structures/issues"
+  },
+  "homepage": "https://github.com/paulAlexSerban/cpp---algorithms-and-data-structures#readme"
+}
