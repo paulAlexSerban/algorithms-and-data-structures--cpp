@@ -1,0 +1,16 @@
+#!/bin/bash
+
+PROJECT=${1}
+
+compile() {
+  g++ -Wall -std=c++14 "${PROJECT}/src/main.cpp" -o "${PROJECT}/dist/main.exe"
+}
+
+run () {
+  "${PROJECT}/dist/main.exe"
+}
+
+compile
+run
+
+# RUN bash compile.bash <project directory>
