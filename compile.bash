@@ -1,5 +1,5 @@
+PROJECT=${1}
 
-SOURCE=${1}
-TARGET=${2}
+g++ -Wall -std=c++14 "${PROJECT}/src/main.cpp" -o "${PROJECT}/dist/main.exe"
 
-g++ -Wall -std=c++14 ${SOURCE} -o ${TARGET}
+# RUN bash compile.bash <project directory>
